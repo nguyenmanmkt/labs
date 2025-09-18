@@ -1,4 +1,4 @@
-# 🧪 Lab 2: Command Line (CMD & PowerShell) cơ bản
+# 🧪 Lab 1: Command Line (CMD & PowerShell) cơ bản
 
 ### 🎯 Mục tiêu
 - Sử dụng CMD & PowerShell để thao tác file, mạng.  
