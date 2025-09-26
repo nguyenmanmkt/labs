@@ -69,6 +69,3 @@ Chạy thử script:
 2. Tạo thêm 1 Task khác:  
    - Tự động dọn file rác trong thư mục `C:\Temp` mỗi tuần.  
 
-3. Viết báo cáo ngắn:  
-   - Ưu điểm của việc dùng Task Scheduler.  
-   - Hạn chế so với dùng công cụ tự động hóa nâng cao (như n8n).  
