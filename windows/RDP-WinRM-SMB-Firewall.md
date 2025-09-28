@@ -3,7 +3,7 @@
 - VM1 Windows 11 trên Hyper-V (6 vCPU, 8GB RAM, 60GB disk). (VM lưu ở ổ D\HyperV)
 - VM2 Windows 11 trên Hyper-V (6 vCPU, 8GB RAM, 60GB disk). (VM lưu ở ổ D\HyperV)
 - IP tĩnh trong dải lớp, DNS: `8.8.8.8`.  
-- VM1 mở dịch vụ Remote Desktop, WinRM (Windows Remote Management) và SMB (D:\ShareFile).  
+- VM1 mở dịch vụ Remote Desktop (RDP), WinRM (Windows Remote Management) và SMB (D:\ShareFile).  
 - Quyền Admin trên VM (để thay đổi firewall).
 
 ---
@@ -19,7 +19,7 @@
 - Từ máy VM2 :  
   - Thử kết nối RDP -> ghi kết quả (connect success / fail).  
   - Thử WinRM (PowerShell Remoting) -> `Test-WsMan` hoặc `Enter-PSSession` -> ghi kết quả.  
-  - Truy cập SMB -> ghi kết quả.  
+  - Truy cập SMB "\\<IP_VM1>\ShareFile" -> ghi kết quả.  
 
 ---
 
