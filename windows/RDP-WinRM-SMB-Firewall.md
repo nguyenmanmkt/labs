@@ -1,5 +1,4 @@
-# Lab Mạng & Firewall — RDP / WinRM / SMB (Ngắn gọn)
-
+# Lab Mạng & Firewall — RDP / WinRM / SMB 
 ## Môi trường & yêu cầu
 - VM1 Windows 11 trên Hyper-V (6 vCPU, 8GB RAM, 60GB disk). (VM lưu ở ổ D\HyperV)
 - VM2 Windows 11 trên Hyper-V (6 vCPU, 8GB RAM, 60GB disk). (VM lưu ở ổ D\HyperV)
@@ -51,8 +50,8 @@ Sinh viên cần nộp các mục sau:
 
 1. **Báo cáo ngắn (khoảng 1 trang, file .docx hoặc .pdf)**  
    - Liệt kê trạng thái của các service RDP, WinRM, SMB (trước khi block).  
-   - Ghi kết quả test kết nối từ client (trước khi block).  
-   - Ghi kết quả test kết nối từ client (sau khi block).  
+   - Ghi kết quả test kết nối từ vm2 (trước khi block).  
+   - Ghi kết quả test kết nối từ vm2 (sau khi block).  
    - Danh sách các Firewall Rule mà bạn đã tạo (tên rule, port bị block).  
 
 2. **File script `block_ports.ps1`**  
