@@ -1,4 +1,4 @@
-# 🐉 Lab 0x01 — Kali Linux Basics (CLI)
+# 🐉 Lab — Kali Linux Basics (CLI)
 
 ## 🎯 Mục tiêu
 - Di chuyển trong hệ thống file (pwd, ls, cd).
